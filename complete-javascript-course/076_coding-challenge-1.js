@@ -24,7 +24,7 @@ playAgainButton.addEventListener("click", function () {
   secretNumber.style.width = "15rem";
 });
 
-// Refactor
+// This resets the high score, which is not good
 // playAgainButton.addEventListener("click", function () {
 //   window.location.reload();
 // });
